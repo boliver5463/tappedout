@@ -1,4 +1,10 @@
 .state-messages{ position: relative; }
+.add-embed-responsive pre{
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
 #main-content{
     background-color: #000000;
     background-image: url(/tappedout/selvala-explorer-returned/selvala-sitting-portrait.jpg);
@@ -29,9 +35,12 @@
 }
 
 h1, h2, h3, h4, h4 small{
+    /* color: #f5f5f5; */
     color: #db560a;
 }
-a.card-link.card-hover{
+a.card-link.card-hover,
+a.card-link.card-hover sup{
     /* color: #00ff6c; */
+    /* color: f5f5f5; */
     color: #daa520;
 }
