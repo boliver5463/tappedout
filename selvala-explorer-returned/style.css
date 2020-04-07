@@ -62,3 +62,6 @@ a.card-link.card-hover sup,
     /* color: f5f5f5; */
     color: #daa520 !important;
 }
+hr{
+    border-color: #db560a !important;
+}
