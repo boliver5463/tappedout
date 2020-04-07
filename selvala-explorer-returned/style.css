@@ -85,6 +85,7 @@
     border-color: #000000;
     background-color: rgba(51, 51, 51, 0.5);
 }
+.btn{ transition: all 0.2s linear; }
 .btn-success{
     border-color: #4cae4c;
     color: #4cae4c;
