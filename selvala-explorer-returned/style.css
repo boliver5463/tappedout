@@ -85,10 +85,30 @@
     border-color: #000000;
     background-color: rgba(51, 51, 51, 0.5);
 }
-.btn{
+.btn-success{
+    border-color: #4cae4c;
+    color: #4cae4c;
+    background-color: #4cae4c25;
+}
+.btn-primary{
+    border-color: #337ab7;
+    color: #337ab7;
+    background-color: #337ab725;
+}
+.btn-warning{
+    border-color: #f0ad4e;
+    color: #f0ad4e;
+    background-color: #f0ad4e25;
+}
+.btn-default{
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: #ffffff25;
+}
+/* .btn{
     background-color: transparent;
     color: inherit !important;
-}
+} */
 
 
 /***** Accordion Banners *****/
