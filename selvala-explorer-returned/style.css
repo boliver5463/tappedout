@@ -4,6 +4,7 @@
     overflow: hidden;
     padding: 0;
     margin: 0;
+    display: none;
 }
 #main-content{
     background-color: #000000;
