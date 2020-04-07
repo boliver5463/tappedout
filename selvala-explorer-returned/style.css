@@ -97,7 +97,8 @@ h1, h2, h3, h4, h4 small {
 a.card-link.card-hover,
 a.card-link.card-hover sup,
 #body .well a:not(.btn),
-.panel-title > a{
+.panel-title > a,
+text.highcharts-title{
     /* color: #00ff6c; */
     /* color: f5f5f5; */
     color: #daa520 !important;
