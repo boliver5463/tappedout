@@ -44,6 +44,15 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+}
+.panel-default > .panel-heading:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body{
     border: 0;
@@ -66,6 +75,7 @@
 .panel-title a{
     padding: 50px;
     display: block;
+    position: relative;
 }
 /* Why play this Commander? */
 #heading-9PR2V6-1{
