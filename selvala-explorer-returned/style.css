@@ -47,6 +47,8 @@
     position: relative;
 }
 .panel-default > .panel-heading:before{
+    content: '';
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
