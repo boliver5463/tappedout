@@ -42,20 +42,21 @@
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body{
     border: 0;
+    background-color: rgba(51, 51, 51, 0.5);
 }
 
 
 
 
 
-h1, h2, h3, h4, h4 small,
-.panel > a {
+h1, h2, h3, h4, h4 small {
     /* color: #f5f5f5; */
     color: #db560a;
 }
 a.card-link.card-hover,
-a.card-link.card-hover sup{
+a.card-link.card-hover sup,
+.panel > a{
     /* color: #00ff6c; */
     /* color: f5f5f5; */
-    color: #daa520;
+    color: #daa520 !important;
 }
