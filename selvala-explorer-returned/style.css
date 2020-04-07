@@ -1,3 +1,4 @@
+.state-messages{ position: relative; }
 #main-content{
     background-color: #000000;
     background-image: url(/tappedout/selvala-explorer-returned/selvala-sitting-portrait.jpg);
@@ -15,7 +16,7 @@
     border: 0;
     background-color: transparent;
 }
-#body{
+#body:before{
     content: '';
     top: 0;
     bottom: 0;
