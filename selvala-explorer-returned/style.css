@@ -33,8 +33,23 @@
     opacity: 0.7;
     pointer-events: none;
 }
+.panel.panel-default{
+    background: transparent;
+    border-color: #000000;
+}
+.panel-default > .panel-heading{
+    background-color: rgba(0,0,0,0.5);
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body{
+    border: 0;
+}
 
-h1, h2, h3, h4, h4 small{
+
+
+
+
+h1, h2, h3, h4, h4 small,
+.panel > a {
     /* color: #f5f5f5; */
     color: #db560a;
 }
