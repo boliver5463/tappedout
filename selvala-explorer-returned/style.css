@@ -27,6 +27,11 @@
     opacity: 0.7;
     pointer-events: none;
 }
+
+h1, h2, h3, h4, h4 small{
+    color: #db560a;
+}
 a.card-link.card-hover{
-    color: #00ff6c;
+    /* color: #00ff6c; */
+    color: #daa520;
 }
