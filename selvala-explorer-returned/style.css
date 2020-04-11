@@ -8,7 +8,6 @@
 }
 #main-content{
     background-color: #000000;
-    background-image: url(/tappedout/selvala-explorer-returned/selvala-sitting-portrait.jpg);
     background-image: url(/tappedout/selvala-explorer-returned/selvala-surrounded.jpg);
     background-position: center top;
     background-size: cover;
@@ -134,13 +133,16 @@
 }
 /* Why play this Commander? */
 .panel:nth-child(1) .panel-title:before{
-    background-image: url(https://boliver5463.github.io/tappedout/selvala-explorer-returned/selvala-banner.jpg);
+    background-image: url(/tappedout/selvala-explorer-returned/selvala-sitting-portrait.jpg);
     background-position: center 20%;
 }
 .panel:nth-child(2) .panel-title:before{
-    background-image: url(https://boliver5463.github.io/tappedout/selvala-explorer-returned/selvala-surrounded.jpg);
+    background-image: url(/tappedout/selvala-explorer-returned/selvala-banner.jpg);
     background-position: center 20%;
-    /* background-position: center; */
+}
+.panel:nth-child(2) .panel-title:before{
+    background-image: url(/tappedout/selvala-explorer-returned/Song-of-the-Dryads.jpg.jpg);
+    background-position: center 20%;
 }
 
 
